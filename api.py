@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-
+from db import *
 app = FastAPI()
 
 @app.get("/")
@@ -10,11 +10,7 @@ def root():
 
 @app.get("/products/categories/food")
 def get_products():
-    return {
-        "product1": {
-            "name": "sandwich",
-            "price" : 10,
-            "product_left" : 10
-        }
+    prod_names = {}
+    for i in range(0,cursor.execute("")):
+        prod_key = f"product{i}"
         
-    }
