@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from db import *
-from gui import *
+from gui.window1 import *
 app = FastAPI()
 
 @app.get("/")
