@@ -1,2 +1,2 @@
-# inventory-sync-api
+# inventory-sync-api (ABADONED)
 a simple API for people, who own small business, to easily check base of their products
